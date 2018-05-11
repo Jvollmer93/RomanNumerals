@@ -15,7 +15,7 @@ function toRomanNumeral(value)
 			romanNumeralArray.push("CM");
 			value = value - 900;
 		}
-		else if((value>=500)&&(value<900))
+		else if(value>=500)
 		{
 			romanNumeralArray.push("D");
 			value = value - 500;
